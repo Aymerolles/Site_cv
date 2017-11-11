@@ -131,6 +131,8 @@ button:hover
 #compétences
 {
   background-color:white;
+  box-shadow: 0px -5px 5px black;
+  width:100%;
 }
 #compétences p,h1
 {
@@ -140,9 +142,9 @@ button:hover
 #skills
 {
   display:flex;
-  width:100%;
   margin:auto;
   justify-content:center;
+  width:100%;
 }
 .skill
 {
@@ -157,23 +159,65 @@ button:hover
 {
   text-align:center;
 }
-#t2
+
+
+.skill_loader
 {
-  position:relative;
-  top:7px;
+  width:100%;
+  height:70%;
 }
-#t3
+#A_propos
 {
-  position:relative;
-  top:1px;
+    display:flex;
+    background-image: radial-gradient(circle at bottom,white,rgb(0,138,221));
+    align-items: center;
+    box-shadow: 0px -5px 5px black;
 }
-#t4
+#aside
 {
-  position:relative;
-  top:6px;
+  margin:auto;
 }
-#t5
+#aside h1
 {
-  position:relative;
-  top:2px;
+  text-shadow:0px 2px 3px #555;
+}
+
+.log
+{
+  width:30px;
+  height:30px;
+
+}
+#logos
+{
+  display:flex;
+  justify-content:space-around;
+}
+#logott,#logoli
+{
+  width:20px;
+  height:20px;
+}
+#logobf
+{
+  height:20px;
+  width:12px;
+}
+.moi
+{
+  border-radius:50%;
+  width:80%;
+  overflow: hidden;
+  margin-left:22px;
+  height:auto;
+  border
+}
+.moi img
+{
+  width:100%;
+  height:auto;
+}
+#me
+{
+  border-radius:50%;
 }
