@@ -59,7 +59,7 @@ nav a
 }
 nav li
 {
-  margin: 5px 5px 5px 5px;
+  margin: 5px 30px 5px 30px;
   display:flex;
   align-items:center;
 
@@ -133,7 +133,7 @@ button:hover
 #compétences
 {
   background-color:white;
-  box-shadow: 0px -5px 5px black;
+  box-shadow: 0px -3px 1px black;
   width:100%;
 }
 #compétences p,h1
@@ -176,7 +176,8 @@ button:hover
     display:flex;
     background-color:white;
     align-items: center;
-    box-shadow: 0px -5px 5px black;
+    box-shadow: 0px -3px 1px black;
+    padding:2%;
 }
 #aside
 {
@@ -197,7 +198,11 @@ button:hover
 #logos
 {
   display:flex;
-  justify-content:space-around;
+  justify-content:center;
+}
+#logos a
+{
+  margin:5px;
 }
 #logott,#logoli
 {
@@ -213,13 +218,17 @@ button:hover
 #me
 {
   border-radius:50%;
-  border: 2px solid black;
+  width:100%;
+}
+#photo_logo
+{
+  width:400px;
 }
 #education
 {
   background-color:rgb(1,176,220);
   height:100%;
-  box-shadow: 0px -5px 5px black;
+  box-shadow: 0px -3px 1px black;
 }
 .education
 {
@@ -244,6 +253,8 @@ button:hover
 {
   padding-top:70px;
   text-shadow:0px 2px 3px #555;
+  padding-bottom:50px;
+  color:white;
 }
 #education p
 {
@@ -253,8 +264,8 @@ button:hover
 {
   position:absolute;
   left:43%;
-  width:170px;
-  height:170px;
+  width:173px;
+  height:173px;
   border-radius:50%;
   border:5px solid rgb(230,240,240);
 
@@ -268,13 +279,95 @@ button:hover
 #div_1,#div_2,#div_3
 {
   width:40%;
-  margin-top:5%;
   margin-left:2%;
-  padding-bottom:5%;
 }
 #div_2
 {
   padding-left:56.2%;
+}
+#div_3
+{
+  padding-bottom:10%;
+}
+#div_15,#div_25
+{
+  height:100px;
+  width:5px;
+  background-color:white;
+  margin-left:50%;
+}
+#expériences
+{
+  margin:0;
+  background-color:rgb(1,176,220);
+  height:100%;
+  box-shadow: 0px -3px 1px black;
+}
+.expériences
+{
+  display:flex;
+}
+#text_4,#text_5,#text_6
+{
+  border-radius:10px;
+  padding:10px;
+  background-color:rgba(223, 223, 223, 0.5);
+}
+#expériences p
+{
+  color:white;
+}
+#expériences h3
+{
+  color:black;
+  text-shadow:0px 1px 2px #555;
+}
+#expériences h1
+{
+  padding-top:70px;
+  text-shadow:0px 2px 3px #555;
+  padding-bottom:50px;
+  color:white;
+}
+#expériences p
+{
+  font-weight:bolder;
+}
+#expériences img
+{
+  position:absolute;
+  left:43%;
+  width:173px;
+  height:173px;
+  border-radius:50%;
+  border:5px solid rgb(230,240,240);
+
+}
+#expériences h2
+{
+  text-align:center;
+  text-shadow:0px 1px 1px #555;
+}
+
+#div_4,#div_5,#div_6
+{
+  width:40%;
+  margin-left:2%;
+}
+#div_5
+{
+  padding-left:56.2%;
+}
+#div_6
+{
+  padding-bottom:10%;
+}
+#div_45,#div_55
+{
+  height:100px;
+  width:5px;
+  background-color:white;
+  margin-left:50%;
 }
 #experiences
 {
