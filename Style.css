@@ -243,6 +243,7 @@ button:hover
 #education h1
 {
   padding-top:70px;
+  text-shadow:0px 2px 3px #555;
 }
 #education p
 {
@@ -255,6 +256,7 @@ button:hover
   width:170px;
   height:170px;
   border-radius:50%;
+  border:5px solid rgb(230,240,240);
 
 }
 #education h2
@@ -272,7 +274,7 @@ button:hover
 }
 #div_2
 {
-  padding-left:55.5%;
+  padding-left:56.2%;
 }
 #experiences
 {
