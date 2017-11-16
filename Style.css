@@ -264,11 +264,12 @@ button:hover
 #education img
 {
   position:absolute;
-  left:43%;
+  left:50%;
   width:173px;
   height:173px;
   border-radius:50%;
   border:5px solid rgb(230,240,240);
+  transform:translate(-50%,0);
 
 }
 #education h2
@@ -293,9 +294,9 @@ button:hover
 #div_15,#div_25
 {
   height:100px;
-  width:5px;
+  width:0.5%;
   background-color:white;
-  margin-left:49.6%;
+  margin-left:49.75%;
 }
 #expériences
 {
@@ -337,11 +338,12 @@ button:hover
 #expériences img
 {
   position:absolute;
-  left:43%;
+  left:50%;
   width:173px;
   height:173px;
   border-radius:50%;
   border:5px solid rgb(230,240,240);
+  transform:translate(-50%,0);
 
 }
 #expériences h2
@@ -366,9 +368,9 @@ button:hover
 #div_45,#div_55
 {
   height:100px;
-  width:5px;
+  width:0.5%;
   background-color:white;
-  margin-left:49.6%;
+  margin-left:49.75%;
 }
 #experiences
 {

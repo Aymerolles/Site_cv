@@ -36,38 +36,35 @@
           </p>
           <div id="skills">
             <div class="skill" id="Financial analytics">
-              <div class="achievement">
-              </div>
               <h2>Financial analytics</h2>
-              <img class="skill_loader" src="./images/rsz_load_orange.jpg"/>
               <h3>Maitrise des outils analytics</h3>
             </div>
             <div class="skill" id="Data">
-              <div class="achievement">
-              </div>
               <h2>Data Science</h2>
-              <img class="skill_loader" src="./images/rsz_load_violet.png"/>
+              <canvas id="load_2" width="70" height="70" >
+              </canvas>
+
               <h3 id="t2">Machine Learning/Big Data</h3>
             </div>
             <div class="skill" id="Developpement">
-              <div class="achievement">
-              </div>
               <h2>Developpement</h2>
-              <img class="skill_loader" src="./images/rsz_load_bleu_2.png"/>
               <h3 id="t3">HTML/CSS/JavaScript/ReactJS</h3>
             </div>
             <div class="skill" id="Marketing">
-              <div class="achievement">
-              </div>
               <h2>Marketing</h2>
-              <img class="skill_loader" src="./images/rsz_load_jaune_2.png"/>
+              <canvas id="load_4"  width="70" height="70" >
+              </canvas>
               <h3 id="t4">Spécialiste en étude de marché</h3>
             </div>
             <div  class="skill" id="Gestion de projets">
-              <div class="achievement">
-              </div>
               <h2>Gestion de projets</h2>
-              <img class="skill_loader" src="./images/rsz_load_vert.png"/>
+              <canvas id="load_5" class="lod" width="70" height="70" >
+              </canvas>
+              <script>
+              $(function() {
+                  $(".lod").knob();
+                });
+            </script>
               <h3 id="t5">Projets Web/Data mining</h3>
             </div>
           </div>
@@ -234,7 +231,7 @@
             <a href="https://www.facebook.com/aymeric.darolls"><button class="log"><img src="./images/logobf.png" id="logobf2" alt="fb logo"/></button></a>
             <a href="vers mon linkedin"><button class="log"><img src="./images/logolinkedin.png" id="logoli2" alt="linkedin logo"/></button></a>
           </div>
-          <p>Copyright © 2017 - Tous droits réservés - Aymeric Darolles</p>    
+          <p>Copyright © 2017 - Tous droits réservés - Aymeric Darolles</p>
         </footer>
       </body>
 </html>
