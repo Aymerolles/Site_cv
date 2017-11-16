@@ -193,6 +193,7 @@ button:hover
 {
   width:30px;
   height:30px;
+  background-color:rgb(1,176,220);
 
 }
 #logos
@@ -294,7 +295,7 @@ button:hover
   height:100px;
   width:5px;
   background-color:white;
-  margin-left:50%;
+  margin-left:49.6%;
 }
 #expériences
 {
@@ -367,9 +368,75 @@ button:hover
   height:100px;
   width:5px;
   background-color:white;
-  margin-left:50%;
+  margin-left:49.6%;
 }
 #experiences
 {
   margin:0;
+}
+
+#solutions
+{
+  display:flex;
+  justify-content:center;
+}
+#solutions img
+{
+  height:150px;
+  margin-left:50px;
+}
+#solutions_techniques
+{
+  background-color:white;
+  padding-bottom:3%;
+  padding-top:3%;
+  box-shadow: 0px -3px 1px black;
+  border-bottom:5px solid rgb(1,176,220);
+}
+#solutions_techniques h1
+{
+  margin-bottom:30px;
+  text-shadow:0px 1px 1px #555;
+}
+#logo_py,#logo_hcj
+{
+  width:150px;
+}
+#logo_office,#logo_wordpress
+{
+  width:220px;
+}
+
+
+
+
+
+#logos2
+{
+  display:flex;
+  justify-content:center;
+}
+#logos2 a
+{
+  margin:5px;
+}
+#logott2,#logoli2
+{
+  width:20px;
+  height:20px;
+}
+#logobf2
+{
+  height:20px;
+  width:12px;
+}
+footer p
+{
+  color:white;
+  margin:0;
+  padding-left:20px;
+}
+footer
+{
+  background-color:black;
 }
