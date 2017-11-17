@@ -43,6 +43,7 @@ header
   display:flex;
   justify-content: center;
   list-style-type:none;
+  width:100%;
 
 }
 nav
@@ -173,11 +174,11 @@ button:hover
   margin:auto;
   justify-content:center;
   width:100%;
+  flex-wrap:wrap;
 }
 .skill
 {
-  padding:20px;
-  width:20%;
+  width:210px;
 }
 .skill h3
 {
@@ -305,6 +306,7 @@ button:hover
 {
   width:40%;
   margin-left:2%;
+  height:180px;
 }
 #div_2
 {
@@ -379,6 +381,7 @@ button:hover
 {
   width:40%;
   margin-left:2%;
+  height:180px;
 }
 #div_5
 {
@@ -404,11 +407,11 @@ button:hover
 {
   display:flex;
   justify-content:center;
+  flex-wrap:wrap;
 }
 #solutions img
 {
   height:150px;
-  margin-left:50px;
 }
 #solutions_techniques
 {
@@ -431,8 +434,6 @@ button:hover
 {
   width:220px;
 }
-
-
 
 
 
@@ -464,4 +465,87 @@ footer p
 footer
 {
   background-color:black;
+}
+
+
+@media screen and (max-width:1024px)
+{
+  #div_4,#div_5,#div_6
+  {
+    margin-left:0%;
+  }
+  #text_4,#text_5,#text_6
+  {
+    position:absolute;
+    right:10px;
+    width:55%;
+  }
+  #expériences img
+  {
+    left:20%;
+
+  }
+  #expériences p
+  {
+    text-align:center;
+  }
+  #div_45,#div_55
+  {
+    margin-left:20%;
+  }
+  #div_1,#div_2,#div_3
+  {
+    margin-left:0%;
+  }
+  #text_1,#text_2,#text_3
+  {
+    position:absolute;
+    right:10px;
+    width:55%;
+  }
+  #education img
+  {
+    left:20%;
+
+  }
+  #education p
+  {
+    text-align:center;
+  }
+  #div_15,#div_25
+  {
+    margin-left:20%;
+  }
+
+
+
+}
+@media screen and (min-width:300px) and (max-width:600px)
+{
+  #text_1,#text_2,#text_3
+  {
+    padding:0;
+
+  }
+  #div_3
+  {
+    padding-bottom:20%;
+  }
+  #text_4,#text_5,#text_6
+  {
+    padding:0;
+
+  }
+  #div_6
+  {
+    padding-bottom:20%;
+  }
+  #métier
+  {
+    padding:15%;
+  }
+
+
+
+
 }
