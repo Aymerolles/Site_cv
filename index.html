@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="Style.css" />
         <title>Site CV</title>
     </head>
-    <body>
+        <body>
         <header>
           <nav>
             <ul id="nav">
@@ -37,34 +37,32 @@
           <div id="skills">
             <div class="skill" id="Financial analytics">
               <h2>Financial analytics</h2>
+              <input type="text" name="round" class="round" data-min="0"
+              data-max="100" data-color="rgb(214,84,3)" value="70"/>
               <h3>Maitrise des outils analytics</h3>
             </div>
             <div class="skill" id="Data">
               <h2>Data Science</h2>
-              <canvas id="load_2" width="70" height="70" >
-              </canvas>
-
+              <input type="text" name="round" class="round" data-min="0"
+              data-max="100" data-color="rgb(146,82,156)" value="80"/>
               <h3 id="t2">Machine Learning/Big Data</h3>
             </div>
             <div class="skill" id="Developpement">
               <h2>Developpement</h2>
+              <input type="text" name="round" class="round" data-min="0"
+              data-max="100" data-color="rgb(10,157,194)" value="75"/>
               <h3 id="t3">HTML/CSS/JavaScript/ReactJS</h3>
             </div>
             <div class="skill" id="Marketing">
               <h2>Marketing</h2>
-              <canvas id="load_4"  width="70" height="70" >
-              </canvas>
+              <input type="text" name="round" class="round" data-min="0"
+              data-max="100" data-color="#fdd835" value="85"/>
               <h3 id="t4">Spécialiste en étude de marché</h3>
             </div>
             <div  class="skill" id="Gestion de projets">
               <h2>Gestion de projets</h2>
-              <canvas id="load_5" class="lod" width="70" height="70" >
-              </canvas>
-              <script>
-              $(function() {
-                  $(".lod").knob();
-                });
-            </script>
+              <input type="text" name="round" class="round" data-min="0"
+              data-max="100" data-color="#00c853" value="80"/>
               <h3 id="t5">Projets Web/Data mining</h3>
             </div>
           </div>
@@ -234,4 +232,6 @@
           <p>Copyright © 2017 - Tous droits réservés - Aymeric Darolles</p>
         </footer>
       </body>
+      <script src="./jquery.js"></script>
+      <script src="./index.js"></script>
 </html>

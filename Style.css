@@ -108,7 +108,30 @@ h1,h2
 {
   margin:0;
 }
-
+div.round{
+  width:200px;
+  height:200px;
+  position:relative;
+  margin:auto;
+}
+div.round input{
+  position:absolute;
+  top:60px;
+  left:50px;
+  font-size:60px;
+  text-align:center;
+  width:100px;
+  border:none;
+  background:none;
+  outline:none;
+}
+div.round canvas{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
 button {
 	cursor:pointer;
 	text-transform:capitalize;
